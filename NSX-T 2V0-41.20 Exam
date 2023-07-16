@@ -1,0 +1,433 @@
+# NSX-T 2V0-41.20 Exam
+***********************
+
+
+QUESTION 1
+An NSX administrator is configuring the KVM hypervisor host as a transport node and wants to apply the Failover Order as a NIC teaming policy.
+Which profile allows the administrator to configure the NIC Teaming policy as Failover Order?
+A. N-VDS/VDS Profile
+B. Transport Node Profile
+C. Host Switch Profile
+D. Uplink Profile
+
+-------------------------------------------------> Correct Answer: D
+QUESTION 2
+Which two choices are prerequisites to configure NSX-T on VDS? (Choose two.)
+A. MTU 1500
+B. MTU 1400
+C. vSphere Distributed Switch 6.5
+D. vSphere Distributed Switch 7.0
+E. MTU 1600
+-------------------------------------------------> Correct Answer: DE
+QUESTION 3
+Which three steps are required to create an IPsec VPN tunnel? (Choose three.)
+A. Create an IPsec service.
+B. Add a local endpoint.
+C. Configure an IPsec session.
+D. Configure a distributed firewall policy.
+E. Add a logical switch.
+-------------------------------------------------> Correct Answer: ABC
+QUESTION 4
+An NSX administrator wants to create a Tier-0 Gateway to support equal cost multi-path (ECMP) routing.
+Which failover detection protocol must be used to meet this requirement?
+A. Beacon Probing (BP)
+B. Host Standby Router Protocol (HSRP)
+C. Bidirectional Forwarding Detection (BFD)
+D. Virtual Router Redundancy Protocol (VRRP)
+-------------------------------------------------> Correct Answer: C
+QUESTION 5
+What are two supported N-VDS modes? (Choose two.)
+A. DPDK Datapath
+B. Overlay Datapath
+C. Secure Datapath
+D. Enhanced Datapath
+E. Standard Datapath
+-------------------------------------------------> Correct Answer: DE
+QUESTION 6
+A user is assigned these two roles in NSX Manager:
+LB Admin
+Network Engineer
+What privileges does this user have in the system?
+A. read permissions on all networking services and full access permissions on load balancing features
+B. full access permissions on all networking services and full access permissions on load balancing features
+C. full access permissions on all networking services and read permissions on load balancing features
+D. read permissions on all networking services and read permissions on load balancing features
+-------------------------------------------------> Correct Answer: B
+QUESTION 7
+Which CLI command should be executed on a KVM hypervisor to retrieve the VM interface UUID?
+A. virsh dumpxml <VM Name> | grep interfaceid
+B. virsh get-interface <VM Name>
+C. virsh show <VM Name> | grep interfaceid
+D. virsh list-interface <VM Name>
+-------------------------------------------------> Correct Answer: A
+QUESTION 8
+Which two choices are use cases for Distributed Intrusion Detection? (Choose two.)
+A. Identify security vulnerabilities in the workloads.
+B. Use agentless antivirus with Guest Introspection.
+C. Quarantine workloads based on vulnerabilities.
+D. Identify risk and reputation of accessed websites.
+E. Gain insight about micro-segmentation traffic flows
+-------------------------------------------------> Correct Answer: AC
+QUESTION 9
+What needs to be configured on a Tier-0 Gateway to make NSX Edge Services available to a VM on a VLAN-backed logical switch?
+A. Service interface
+B. Loopback Router Port
+C. Downlink interface
+D. VLAN Uplink
+-------------------------------------------------> Correct Answer: D
+QUESTION 10
+Which CLI command does an NSX administrator run on the NSX Manager to generate support bundle logs if the NSX UI is inaccessible?
+A. get support-bundle file vcpnv.tgz
+B. set support-bundle file vcpnv.tgz
+C. vm-support
+D. esxcli system syslog config logger set --id=nsxmanager
+-------------------------------------------------> Correct Answer: A
+An NSX administrator would like to export syslog events that capture messages related to NSX host preparation events.
+Which message ID (msgid) should be used in the syslog export configuration command as a filter?
+A. SYSTEM
+B. FABRIC
+C. GROUPING
+D. MONITORING
+https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/administration/GUID-CC18C0E3-D076-41AA-8B8C-133650FDC2E7.html
+https://docs.vmware.com/en/VMware-NSX/4.1/administration/GUID-8085C57D-681A-4435-83A3-CB21C98F4A93.html
+set logging-server <hostname-or-ip-address[:port]> proto <proto> level <level> [facility <facility>] [messageid <messageid>] [serverca <filename>] [clientca <filename>] [certificate <filename>] [key <filename>] [structured-data <structured-data>]
+-------------------------------------------------> Correct Answer: B
+QUESTION 12
+Which CLI command shows syslog on NSX Manager?
+A. show log manager follow
+B. get log-file auth.log
+C. get log-file syslog
+D. /var/log/sysloq/syslog.log
+
+https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/administration/GUID-406AF9C3-E8F7-447A-8E3D-92AFB9D5E973.html
+get log-file <auth.log | controller | controller-error | http.log | kern.log | manager.log | node-mgmt.log | policy.log | syslog> [follow]
+-------------------------------------------------> Correct Answer: C
+QUESTION 13
+The NSX Control Plane is responsible for which two functions? (Choose two.)
+A. receive and validate configuration from NSX Policy
+B. host API services
+C. propagate topology information
+D. push stateless configurations to forwarding engines
+E. maintain packet-level statistics
+-------------------------------------------------> Correct Answer: CD
+QUESTION 14
+A customer is preparing to deploy VMware Kubernetes on an NSX-T Data Center.
+What is the minimum MTU size for the UPLINK profile?
+www.vceplus.com - Free Questions & Answers - Online Courses - Convert VCE to PDF - VCEplus.com
+A. 1500
+B. 1650
+C. 1550
+D. 1600
+-------------------------------------------------> Correct Answer: D
+QUESTION 15
+An NSX administrator has deployed an NSX Edge on a bare-metal server.
+Which command registers the NSX Edge with the NSX Manager?
+A. join management-cluster <nsx-cluster-IP> username admin password <admin-password> thumbprint <nsx-manager-thumbprint>
+B. join cluster <nsx-cluster-IP> username root password <root-password> thumbprint <nsx-manager—thumbprint>
+C. join policy-manager <nsx-manager-ip> username root password <root-password> thumbprint <nsx-manager-thumbprint>
+D. join management-plane <nsx-nanager-ip> username admin password <admin-password> thumbprint <nsx-manager-thumbprint>
+-------------------------------------------------> Correct Answer: D
+Which NAT type must the NSX-T Data Center administrator create on the Tier-0 or Tier-1 Gateway to allow Web VM to initiate communication with public
+networks?
+A. SNAT
+B. Reverse NAT
+C. DNAT
+D. 1:1 NAT
+-------------------------------------------------> Correct Answer: A
+QUESTION 17
+How does Traceflow tool identify issues in a network?
+A. Compares intended network state in the control plane with Tunnel End Point (TEP) keepalives in the data plane.
+B. Compares the management plane configuration states containing control plane traffic and error reporting from transport node agents.
+C. Injects synthetic traffic into the data plane and observes the results in the control plane.
+D. Injects ICMP traffic into the data plane and observes the results in the control plane.
+-------------------------------------------------> Correct Answer: C
+QUESTION 18
+Which statement is true about an alarm in a Suppressed state?
+A. An alarm can be suppressed for a specific duration in days.
+B. An alarm can be suppressed for a specific duration in minutes.
+C. An alarm can be suppressed for a specific duration in seconds.
+D. An alarm can be suppressed for a specific duration in hours.
+-------------------------------------------------> Correct Answer: D
+QUESTION 19
+An NSX administrator is troubleshooting a connectivity issue with virtual machines running on an ESXi transport node.
+Which feature in the NSX UI shows the mapping between the virtual NIC and the host's physical adapter?
+A. Switch Visualization
+B. Port Mirroring
+C. Activity Monitoring
+D. IPFIX
+-------------------------------------------------> Correct Answer: A
+QUESTION 20
+Which two logical router components span across all transport nodes? (Choose two.)
+A. DISTRIBUTED_ROUTER_TIER0
+B. SERVICE_ROUTER_TIER0
+C. TIER0_DISTRIBUTED_ROUTER
+D. DISTRIBUTED_ROUTER_TIER1
+E. SERVICE_ROUTER_TIER1
+-------------------------------------------------> Correct Answer: AD
+Which step must be performed before deploying an additional NSX Manager from the NSX-T UI?
+A. Prepare the ESXi hosts as Transport Nodes.
+B. Configure the Virtual IP of the cluster.
+C. Register vCenter Server as a Compute Manager.
+D. Create an Edge Cluster.
+
+https://docs.pivotal.io/pks/1-7/nsxt-install-nsx-mgmt-cluster.html
+-------------------------------------------------> Correct Answer: C
+What are two valid options when configuring the scope of a distributed firewall rule? (Choose two.)
+A. Segment Port
+B. Group
+C. Segment
+D. DFW
+E. Tier-1 Gateway
+-------------------------------------------------> Correct Answer: BD
+QUESTION 23
+Which two commands does an NSX administrator use to check the IP address of the VMkernel port for the GENEVE protocol on the ESXi transport node? (Choose
+two.)
+A. esxcfg-nics -1
+B. net-dvs
+www.vceplus.com - Free Questions & Answers - Online Courses - Convert VCE to PDF - VCEplus.com
+C. esxcli network nic list
+D. esxcfg-vmknic -1
+E. esxcli network ip interface ipv4 get
+-------------------------------------------------> Correct Answer: DE
+QUESTION 24
+Which three services are compatible with VRF Lite? (Choose three.)
+A. VPN
+B. Intrusion Detection
+C. NAT
+D. Load Balancer
+E. DHCP
+-------------------------------------------------> Correct Answer: BCE
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+-------------------------------------------------> Correct Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
