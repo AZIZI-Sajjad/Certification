@@ -197,16 +197,45 @@ C. NAT
 D. Load Balancer
 E. DHCP
 -------------------------------------------------> Correct Answer: BCE
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
+QUESTION 25
+Which CLI command is used to start the NSX Manager virtual machine in the KVM environment?
+A. virsh start <NSX-Manager-ID>
+B. virsh poweron <nsx-manager-ID>
+C. virsh start <NSX-Manager-Name>
+D. virsh poweron <nsx-manager-name>
+-------------------------------------------------> Correct Answer: C
+QUESTION 26
+In a NSX-T Data Center environment, an administrator is observing low throughput and congestion between the Tier-0 Gateway and the upstream physical routers.
+Which two actions could address low throughput and congestion? (Choose two.)
+A. Deploy Large size Edge node/s.
+B. Configure ECMP on the Tier-0 gateway.
+C. Configure NAT on the Tier-0 gateway.
+D. Add an additional vNIC to the NSX Edge node.
+E. Configure a Tier-1 gateway and connect it directly to the physical routers.
+-------------------------------------------------> Correct Answer: AB
+QUESTION 27
+Which three steps must be carried out to configure North-South / East-West Network Inspection? (Choose three.)
+A. Service Deployment
+B. Service Insertion
+C. Service Consumption
+D. Service Registration
+E. Service Introspection
+-------------------------------------------------> Correct Answer: ACD
+QUESTION 28
+Which statement describes the VMware Virtual Cloud Network Vision?
+A. Virtual Cloud Network connects and protects virtual machines running in KVM environments.
+B. Virtual Cloud Network connects and protects virtual machines running in vSphere environments.
+C. Virtual Cloud Network connects and protects applications, regardless of their physical locations.
+D. Virtual Cloud Network connects and protects applications and data, regardless of their physical locations
+-------------------------------------------------> Correct Answer: D
+QUESTION 29
+Which two commands are used to query the arp-table of a logical switch? (Choose two.)
+A. get logical-switch arp-table <logical-switch-uuid>
+B. get logical-switch arp-table <vni>
+C. get logical-switch arp-table
+D. get logical-switch <logical-switch-uuid> arp-table
+E. get logical-switch <vni> arp-table
+-------------------------------------------------> Correct Answer: DE
 
 -------------------------------------------------> Correct Answer:
 
