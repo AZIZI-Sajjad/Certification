@@ -186,8 +186,10 @@ A. esxcfg-nics -1
 B. net-dvs
 www.vceplus.com - Free Questions & Answers - Online Courses - Convert VCE to PDF - VCEplus.com
 C. esxcli network nic list
-D. esxcfg-vmknic -1
+D. esxcfg-vmknic -l
 E. esxcli network ip interface ipv4 get
+
+https://kb.vmware.com/s/article/1008127
 -------------------------------------------------> Correct Answer: DE
 QUESTION 24
 Which three services are compatible with VRF Lite? (Choose three.)
@@ -575,12 +577,32 @@ B. Compares the management plane configuration states containing control plane t
 C. Injects synthetic traffic into the data plane and observes the results in the control plane.
 D. Injects ICMP traffic into the data plane and observes the results in the control plane.
 -------------------------------------------------> Correct Answer:  C
+Question #36
+Which three functions require a Services Router (SR) component on an Edge node? (Choose three.)
+A. Service Insertion
+B. Distributed Routing
+C. Packet Forwarding
+D. Gateway Firewall
+E. Distributed Firewall
+F. Virtual Private Network
+-------------------------------------------------> Correct Answer:  ADF ??????????????????????????????
+Question #37
+Which NSX CLI command is used to check the GENEVE tunnel status on ESXi transport node?
+A. get host-switch <Host-Switch-Name> tunnels
+B. get transport-node tunnel status
+C. get host-switch <Host-Switch-Name> tunnel status
+D. get transport-node tunnel state
 
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html#get%20host-switch%20%3Chost-switch-name%3E%20tunnels
+-------------------------------------------------> Correct Answer: A
+Question #38
+What are two valid options when configuring the scope of a distributed firewall rule? (Choose two.)
+A. Segment Port
+B. Group
+C. Segment
+D. DFW
+E. Tier-1 Gateway
+-------------------------------------------------> Correct Answer:  BD
 
 -------------------------------------------------> Correct Answer:
 
