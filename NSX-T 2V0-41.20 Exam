@@ -357,6 +357,8 @@ A. set service nsx-manager logging-level debug
 B. set service nsx-manager log-level debug
 C. set service manager log-level debug
 D. set service manager logging-level debug
+
+https://kb.vmware.com/s/article/55868
 -------------------------------------------------> Correct Answer: D
 NEW QUESTION 3
 Which three protocols could an NSX administrator use to transfer log messages to a remote log server? (Choose three.)
@@ -498,26 +500,81 @@ C. route-based IPSec VPN
 D. Open source based IPSec VPN
 E. SSL based IPSec VPN
 -------------------------------------------------> Correct Answer: AC
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
+Question #13
+An NSX administrator has been tasked with deploying a NSX Edge Virtual machine through an ISO image.
+Which virtual network interface card (vNIC) type must be selected while creating the NSX Edge VM allow participation in overlay and VLAN transport zones?
+A. e1000
+B. VMXNET2
+C. VMXNET3
+D. Flexible
+-------------------------------------------------> Correct Answer: C
+Question #14
+What needs to be configured on a Tier-0 Gateway to make NSX Edge Services available to a VM on a VLAN-backed logical switch?
+A. Service interface
+B. Loopback Router Port
+C. Downlink interface
+D. VLAN Uplink
+-------------------------------------------------> Correct Answer: A
+Question #22
+How is the RouterLink port created between a Tier-1 Gateway and Tier-0 Gateway?
+A. Automatically created when Tier-1 is created.
+B. Manually create a Segment and connect to both Tier-1 and Tier-0 Gateways.
+C. Manually create a Logical Switch and connect to bother Tier-1 and Tier-0 Gateways.
+D. Automatically created when Tier-1 is connected with Tier-0 from NSX UI.
+-------------------------------------------------> Correct Answer: D
+Question #23
+What is the most restrictive NSX-T built-in role which will allow a user to apply configuration changes on a NSX Edge?
+A. Cloud Service Administrator
+B. Network Engineer
+C. Network Operator
+D. NSX Administrator
+-------------------------------------------------> Correct Answer: B   ???????????????????????????????????
+Question #24A customer is preparing to deploy VMware Kubernetes on an NSX-T Data Center.
+What is the minimum MTU size for the UPLINK profile?
+A. 1500
+B. 1650
+C. 1550
+D. 1600 
+-------------------------------------------------> Correct Answer: D
+Question #25
+Which tool could be used to inspect the path of a packet in the data plane?
+A. Port Connection
+B. Port Mirroring Session
+C. Netflow
+D. Traceflow
+-------------------------------------------------> Correct Answer: D
+Question #26
+Which two statements are true about the implementation of multicast in NSX-T Data Center? (Choose two.)
+A. Multicast routing is implemented with PIM Sparse-Mode.
+B. IGMP Snooping is used to populate multicast forwarding tables.
+C. Tier-0 gateways can be the Rendezvous Point.
+D. Multicast is supported in ESXi and KVM transport nodes.
+E. An Edge can be the Rendezvous Point.
+-------------------------------------------------> Correct Answer: AB
+Question #27
+An NSX administrator has deployed an NSX Edge on a bare-metal server.
+Which command registers the NSX Edge with the NSX Manager?
+A. join management-cluster <nsx-cluster-IP> username admin password <admin-password> thumbprint <nsx-manager-thumbprint>
+B. join cluster <nsx-cluster-IP> username root password <root-password> thumbprint <nsx-managerג€"thumbprint>
+C. join policy-manager <nsx-manager-ip> username root password <root-password> thumbprint <nsx-manager-thumbprint>
+D. join management-plane <nsx-nanager-ip> username admin password <admin-password> thumbprint <nsx-manager-thumbprint>
+-------------------------------------------------> Correct Answer:  D
+Question #28
+Refer to the exhibit.
+IMAGE : https://www.examtopics.com/exams/vmware/2v0-4120/view/7/
+Which NAT type must the NSX-T Data Center administrator create on the Tier-0 or Tier-1 Gateway to allow Web VM to initiate communication with public networks?
+A. SNAT
+B. Reverse NAT
+C. DNAT
+D. 1:1 NAT
+-------------------------------------------------> Correct Answer:  A
+Question #29
+How does Traceflow tool identify issues in a network?
+A. Compares intended network state in the control plane with Tunnel End Point (TEP) keepalives in the data plane.
+B. Compares the management plane configuration states containing control plane traffic and error reporting from transport node agents.
+C. Injects synthetic traffic into the data plane and observes the results in the control plane.
+D. Injects ICMP traffic into the data plane and observes the results in the control plane.
+-------------------------------------------------> Correct Answer:  C
 
 -------------------------------------------------> Correct Answer:
 
