@@ -462,15 +462,42 @@ C. NSX Advanced Load Balancer
 D. NSX Intelligence
 -------------------------------------------------> Correct Answer: A
 
--------------------------------------------------> Correct Answer:
 
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
+EXAMTOPIC
+-------------------------------------------------> 
+An NSX administrator noticed that the nsxcli command times out after 600 secs of idle time. Which CLI command disables the nsxcli time out value on NSX Manager?
+A. set cli-timeout 0 Most Voted
+B. set cli-timeout enabled
+C. set cli-timeout disabled
+D. set cli-timeout 1
+-------------------------------------------------> Correct Answer: A
+An NSX administrator is configuring the KVM hypervisor host as a transport node and wants to apply the Failover Order as a NIC teaming policy.
+Which profile allows the administrator to configure the NIC Teaming policy as Failover Order?
+A. N-VDS/VDS Profile
+B. Transport Node Profile
+C. Host Switch Profile
+D. Uplink Profile
+-------------------------------------------------> Correct Answer: D
+Which command is used to display the network configuration of the Tunnel Endpoint (TEP) IP on a bare metal transport node?
+A. ifconfig
+B. tcpdump
+C. debug
+D. ipconfig
+-------------------------------------------------> Correct Answer: A
+An NSX administrator has configured a KVM hypervisor as a transport node.
+Which kernel module on KVM implements a N-VDS?
+A. openvswitch
+B. etherswitch
+C. nsx-vswitch
+D. dvswitch
+-------------------------------------------------> Correct Answer: A
+What are two types of supported IPSec VPNs in NSX-T Data Center? (Choose two.)
+A. policy-based IPSec VPN
+B. Layer-7 based IPSec VPN
+C. route-based IPSec VPN
+D. Open source based IPSec VPN
+E. SSL based IPSec VPN
+-------------------------------------------------> Correct Answer: AC
 
 -------------------------------------------------> Correct Answer:
 
