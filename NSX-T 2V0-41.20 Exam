@@ -236,62 +236,231 @@ C. get logical-switch arp-table
 D. get logical-switch <logical-switch-uuid> arp-table
 E. get logical-switch <vni> arp-table
 -------------------------------------------------> Correct Answer: DE
+QUESTION 30
+An NSX administrator has configured a load balancer virtual server on a Tier-1 Gateway.
+In order to advertise the load balancer virtual IP to the Tier-0 Gateway, which route advertisement configuration has to be done on the Tier-1 Gateway? (Choose
+two.)
+A. Advertise All LB SNAT IP Routes
+B. All Static Routes
+C. Information
+D. Advertise All LB VIP Routes
+E. Advertise All NAT Routes
+-------------------------------------------------> Correct Answer: AD
+QUESTION 31
+When a stateful service is enabled for the first time on a Tier-0 Gateway, what happens on the NSX Edge node?
+A. SR and DR doesn’t need to be connected to provide any stateful services.
+B. DR is instantiated and automatically connected with SR.
+C. SR is instantiated and automatically connected with DR.
+D. SR and DR is instantiated but requires manual connection.
+-------------------------------------------------> Correct Answer: C
+QUESTION 32
+Which CLI command on NSX Manager and NSX Edge is used to change NTP settings?
+A. set time-server
+B. get timezone
+C. set ntp-server
+D. set timezone
+-------------------------------------------------> Correct Answer: C
+QUESTION 33
+Which three teaming policy modes are supported by NSX-T Data Center? (Choose three.)
+A. Destination MAC
+B. Load Balanced Source IP
+C. Failover Order
+D. Destination Port
+E. Load Balanced Source MAC
+F. Load Balanced Source
+-------------------------------------------------> Correct Answer:   ????????????????????????????????????????????????
+QUESTION 34
+An NSX administrator is creating a Tier-1 Gateway configured in Active-Standby High Availability Mode. In the event of node failure, the failover policy should not
+allow the original failed node to become the Active node upon recovery.
+Which failover policy meets this requirement?
+A. Non-Preemptive
+B. Preemptive
+C. Enable Preemptive
+D. Disable Preemptive
+-------------------------------------------------> Correct Answer: A
+QUESTION 35
+Which two choices are solutions of the NSX portfolio (Choose two.)?
+A. vRealize Automation
+B. NSX Distributed IDS/IPS
+C. vRealize Network Insight
+D. Tanzu Kubernetes Grid
+E. NSX Service Mesh
+-------------------------------------------------> Correct Answer: BE
+QUESTION 36
+Where are Distributed Firewall logs containing access decisions stored?
+A. NSX API
+B. NSX Edge
+C. NSX Manager
+D. Hypervisor transport node
 
--------------------------------------------------> Correct Answer:
+https://docs.vmware.com/en/VMware-NSX/4.1/administration/GUID-D57429A1-A0A9-42BE-A299-0C3C3546ABF3.html
+If logging is enabled for firewall rules, you can look at the firewall packet logs to troubleshoot issues. The log file is /var/log/dfwpktlogs.log on ESXi hosts.
+-------------------------------------------------> Correct Answer: D
+QUESTION 37
+What are three NSX Manager roles? (Choose three.)
+A. cloud
+B. manager
+C. zookeeper
+D. policy
+E. master
+F. controller
+-------------------------------------------------> Correct Answer: BDE
+QUESTION 38
+Which three can an administrator define in a transport node profile? (Choose three.)
+A. Logical Router
+B. Segment Profile
+C. Segment
+D. Uplink Profile
+E. VDS switch configuration
+F. N-VDS switch configuration
+-------------------------------------------------> Correct Answer: DEF
+QUESTION 39
+A DevOps user has deployed a Kubernetes Pod in vSphere.
+What does the term ClusterIP represent within NSX-T?
+A. Deployment of T1 with NLB service.
+B. Deployment of Distributed Router.
+C. Deployment of Distributed Load Balancing service.
+D. Deployment of T0 and T1
+-------------------------------------------------> Correct Answer: C
+QUESTION 40
+How many IPs are required when deploying a highly available NSX Management Cluster with VIP in a production environment?
+A. 5
+B. 6
+C. 3
+D. 4
+-------------------------------------------------> Correct Answer: D
+QUESTION 41
+An NSX Administrator has created a segment named WEB-LS from the NSX UI and noticed the segment is not realized on the KVM Transport node.
+What are two possible causes for this issue? (Choose two.)
+A. The KVM Transport node has hardware issues and will not realize the WEB-LS Segment.
+B. Since the Compute Manager is disconnected in NSX UI, the WEB-LS segment will not be realized on the KVM Transport Node.
+C. The virtual machines running on the KVM Transport Node are connected to the WEB-LS segment, but are in Powered Off state.
+D. The virtual machines running on the KVM Transport Node are not connected to the VDS.
+E. The virtual machines running on the KVM Transport Node are not connected to the WEB-LS Segment.
+-------------------------------------------------> Correct Answer: BE
+QUESTION 42
+Which profile must be attached to the ESXi cluster to prepare the host for NSX-T Data Center?
+A. Transport Node Profile
+B. Uplink Profile
+C. Switching Profile
+D. Host Profile
+-------------------------------------------------> Correct Answer: A
 
--------------------------------------------------> Correct Answer:
 
--------------------------------------------------> Correct Answer:
 
--------------------------------------------------> Correct Answer:
 
+file:///D:/T%C3%A9l%C3%A9chargements/vmware.prep4sure.2v0-4120.pdf.download.2023-may-29.by.curitis.28q.vce.pdf
 -------------------------------------------------> Correct Answer:
+NEW QUESTION 2
+Which command is used to set the NSX Manager's logging-level to debug mode for troubleshooting?
+A. set service nsx-manager logging-level debug
+B. set service nsx-manager log-level debug
+C. set service manager log-level debug
+D. set service manager logging-level debug
+-------------------------------------------------> Correct Answer: D
+NEW QUESTION 3
+Which three protocols could an NSX administrator use to transfer log messages to a remote log server? (Choose three.)
+A. SSL
+B. HTTPS
+C. TLS
+D. UDP
+E. SSH
+F. TCP
+-------------------------------------------------> Correct Answer: CDF
+NEW QUESTION 5
+An NSX administrator is reviewing syslog and notices that Distributed Firewall Rules hit counts are not being logged. What could cause this issue?
+A. Syslog is not configured on the NSX Manager
+B. Distributed Firewall Rule logging is not enabled
+C. Zero Trust Security is not enabled
+D. Syslog is not configured on the ESXi transport node
+-------------------------------------------------> Correct Answer: B
+NEW QUESTION 6
+Which log is used to see a failed NSX-T installation of a VIB package on ESXi transport nodes?
+A. /var/l og/host
+B. log
+C. /var/log/vmware/eam/eam.log
+D. /var/log/esxupdate.log
+E. /var/log/syslog.log
+-------------------------------------------------> Correct Answer: D
+NEW QUESTION 7
+Which two BGP configuration parameters can be configured in the VRF Lite gateways? (Choose two.)
+A. Route Aggregation
+B. Route Distribution
+C. Graceful Restart
+D. BGP Neighbors
+E. Local AS
+-------------------------------------------------> Correct Answer:  AD ???????????????????????????????? ou BD
+NEW QUESTION 8
+An NSX administrator is planning to deploy a multi-tier routing topology in their NSX-T Data Center environment to provide north-south connectivity for the VMs.
+Which routing component must be deployed?
+A. Tier-1 Gateway
+B. Edge Services Gateway
+C. Tier-0 Gateway
+D. Layer 2 Gateway
+-------------------------------------------------> Correct Answer: C
+NEW QUESTION 10
+Which is correct when deploying a NSX Edge in a KVM only environment?
+A. deploy NSX Edge VM with QCOW2 image
+B. deploy NSX Edge VM with ISO image
+C. deploy NSX Edge on a bare-metal server
+D. deploy NSX Edge VM with OVF template
 
--------------------------------------------------> Correct Answer:
+https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/installation/GUID-11417AA2-5EBC-49C7-8A86-EB94604261A6.html
+-------------------------------------------------> Correct Answer: C
+NEW QUESTION 10
+Which component does the hyperbus interface (vmk50) provide network connectivity to?
+A. containers running on ESXi/KVM transport nodes
+B. virtual machines and containers running across transport nodes
+C. virtual machines running on the same hypervisor
+D. virtual machines running in the same segment
 
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
-
--------------------------------------------------> Correct Answer:
+https://cloudbytesecurity.com/2019/11/05/prepare-host-transport-nodes/
+-------------------------------------------------> Correct Answer: C
+NEW QUESTION 21
+Which two choices are use cases for Distributed Intrusion Detection? (Choose two.)
+A. Identify security vulnerabilities in the workloads.
+B. Use agentless antivirus with Guest Introspection.
+C. Quarantine workloads based on vulnerabilities.
+D. Identify risk and reputation of accessed websites.
+E. Gain insight about micro-segmentation traffic flows.
+-------------------------------------------------> Correct Answer: AC ???????????
+NEW QUESTION 22
+Which statement Is true regarding the audit user account? (Choose two.)
+A. The admin user must set the password for the audit account to log in to NSX Manager.
+B. The administrator must run the set audit user password <password> command.
+C. The audit user has read-write access to the NSX Manager.
+D. The audit user is disabled by default and must be enabled to log in to the NSX Manager.
+E. The administrator must run the set user audit password <password> command.
+-------------------------------------------------> Correct Answer: AE  ?????????????????????????????????
+NEW QUESTION 27
+Which CLI command does an NSX administrator run on the NSX Manager to generate support bundle logs if the NSX UI is inaccessible?
+A. get support-bundle file vcpnv.tgz
+B. set support-bundle file vcpnv.tgz
+C. vm-support
+D. esxcli system syslog config logger set --id=nsxmanager
+-------------------------------------------------> Correct Answer: A
+NEW QUESTION 30
+Which CLI command would an administrator use to allow syslog on an ESXi transport node when using the esxcli utility?
+A. esxcli network firewall ruleset -e syslog
+B. esxcli network firewall ruleset set -a -e false
+C. esxcli network firewall ruleset set -r syslog -e true
+D. esxcli network firewall ruleset set -r sysloq -e false
+-------------------------------------------------> Correct Answer: C
+NEW QUESTION 35
+Which three steps are required to create an IPsec VPN tunnel? (Choose three.)
+A. Create an IPsec service.
+B. Add a local endpoint.
+C. Configure an IPsec session.
+D. Configure a distributed firewall policy.
+E. Add a logical switch.
+-------------------------------------------------> Correct Answer: ABC
+NEW QUESTION 37
+Which Network and Security virtualization solution provides network hybridity and mobility?
+A. VMware HCX
+B. VMware Tanzu Service Mesh
+C. NSX Advanced Load Balancer
+D. NSX Intelligence
+-------------------------------------------------> Correct Answer: A
 
 -------------------------------------------------> Correct Answer:
 
