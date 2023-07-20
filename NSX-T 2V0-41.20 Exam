@@ -261,6 +261,8 @@ A. set time-server
 B. get timezone
 C. set ntp-server
 D. set timezone
+
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/ffedf5e0-6b2d-4aad-87ab-1045cd6e8233/b1529ef2-8250-497a-8cee-20947fba5072/NSX-T%20Command-Line%20Interface%20Reference.html
 -------------------------------------------------------------------------------------> Correct Answer: C
 QUESTION 33
 Which three teaming policy modes are supported by NSX-T Data Center? (Choose three.)
@@ -641,34 +643,121 @@ B. Group all by means of tags membership.
 C. Use Edge as a firewall between tiers.
 D. Do a service insertion to accomplish the task.
 -------------------------------------------------------------------------------------> Correct Answer:  B
+Question 6
+Which to steps must an NSX administrator take to integrate VMware Identity Manager in NSX-T to support role-based access control? (Choose two.)
+A. Create a SAML authentication in VMware Identity Manager using the NSX Manager FQDN.
+B. Add NSX Manager as a Service Provider (SP) in VMware Identity Manager.
+C. Create an OAuth 2.0 client in VMware Identity Manager.
+D. Enter the Identity Provider (IdP) metadata URL in NSX Manager.
+E. Enter the service URL, Client Secret, and SSL thumbprint in NSX Manager.
+-------------------------------------------------------------------------------------> Correct Answer:  CE
+Question 8
+Which TraceFlow traffic type should an NSX administrator use for validating connectivity between App and DB virtual machines that reside on different segments?
+A. Multicast
+B. Anycast
+C. Unicast
+D. Broadcast
+-------------------------------------------------------------------------------------> Correct Answer:  C
+Question 9
+When running nsxcli on an ESXi host, which command will show the Replication mode?
+A. get logical-switch <Local-Switch-UUID> status
+B. get logical-switch <Logical-Switch-UUID>
+C. get logical-switches
+D. get logical-switch status
 
--------------------------------------------------------------------------------------> Correct Answer:
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html#get%20logical-switch%20%3Clogical-switch-id%3E%202
+-------------------------------------------------------------------------------------> Correct Answer: B
+Question 10
+Which profile must be attached to the ESXi cluster to prepare the host for NSX-T Data Center?
+A. Transport Node Profile
+B. Uplink Profile
+C. Switching Profile
+D. Host Profile
+-------------------------------------------------------------------------------------> Correct Answer:  A
+Question 11
+Which choice is correct when deploying a NSX Edge in a KVM only environment?
+A. deploy NSX Edge VM with OVF template
+B. deploy NSX Edge on a bare-metal server
+C. deploy NSX Edge VM with QCOW2 image
+D. deploy NSX Edge on physical switch
+-------------------------------------------------------------------------------------> Correct Answer:  B
+Question 12
+Which command is used to change the NSX CLI administrator password?
+A. set user administrator password <old-password> <new-password>
+B. set user admin password <old-password> <new-password>
+C. set user admin password <password> old-password <old-password>
+D. set user administrator password <password> old-password <old-password>
 
--------------------------------------------------------------------------------------> Correct Answer:
+https://docs.pivotal.io/pks/1-5/nsxt-install-update-password.html
+set user admin password my-new-pwd old-password my-old-pwd
+set user admin password-expiration 120
+-------------------------------------------------------------------------------------> Correct Answer:  C
+Question 13
+Which statement is true regarding the audit user account? (Choose two.)
+A. The admin user must set the password for the audit account to log in to NSX Manager.
+B. The administrator must run the set user audit password <password> command.
+C. The audit user must be created and have its password changed to log into the NSX Manager.
+D. The administrator must run the set audit user password <password> command.
+E. The audit user has read-write access to the NSX Manager.
+-------------------------------------------------------------------------------------> Correct Answer:  AB
+Question 14
+Where do you configure the VLANs used in VRF Lite? (Choose two.)
+A. uplink interface of the default Tier-0 gateway
+B. uplink trunk segment
+C. downlink interface of the default Tier-0 gateway
+D. uplink interface of the VRF gateway
+E. segment connected to the Tier-1 gateway
+-------------------------------------------------------------------------------------> Correct Answer:  BD
+Which two statements are true for a Tier-1 Gateway? (Choose two.)
+A. supports ECMP
+B. owned and configured by the Tenant Most Voted
+C. always configured in active-standby mode Most Voted
+D. owned and configured by Service Provider
+E. connects to physical networks
+-------------------------------------------------------------------------------------> Correct Answer:  CE
+Question 21 ( Topic 1 )
+An NSX administrator is using ping to check connectivity between VM1 running on ESXi1 to VM2 running on ESXi2. The ping tests fails. The administrator knows the maximum transmission unit size on the physical switch is 1600.
+Which command does the administrator use to check the VMware kernel ports for tunnel end point communication?
+A. esxcli network diag ping -H <destination IP address>
+B. vmkping ++netstack=geneve -d -s 1572 <destination IP address>
+C. vmkping ++netstack=vxlan-d -s 1572 <destination IP address>
+D. esxcli network diag ping -I vmk0 -H <destination IP address>
+-------------------------------------------------------------------------------------> Correct Answer:  C    ?????????????????????????
+NEW QUESTION 8
+A security administrator needs to configure a firewall rule based on the domain name of a specific application. Which field in a distributed firewall rule does the
+administrator configure?
+A. Profile
+B. Source
+C. Service
+D. Policy
+-------------------------------------------------------------------------------------> Correct Answer:  A
+NEW QUESTION 22
+Which tool could be used to configure BGP on a Tier-0 Gateway?
+A. PowerShell
+B. API
+C. ESX CLI
+D. NSX CLI
 
--------------------------------------------------------------------------------------> Correct Answer:
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html
+-------------------------------------------------------------------------------------> Correct Answer:  D
+A customer has a network where BGP has been enabled and the BGP neighbor is configured on the Tier-0 Gateway. A NSX-T Data Center administrator used the get logical-routers command to retrieve this information:
+Which two commands must be executed to check BGP neighbor status? (Choose two.)
+A. vrf 3
+B. vrf 1
+C. vrf 4
+D. sa-nsxedge-01(tier1_sr)> get bgp neighbor
+E. sa-nsxedge-01(tier0_sr)> get bgp neighbor
+F. sa-nsxedge-01(tier0_dr)> get bgp neighbor
+-------------------------------------------------------------------------------------> Correct Answer:  AE
+Which NSX CLI command is used to check the GENEVE tunnel status on ESXi transport node?
+A. get host-switch <Host-Switch-Name> tunnels
+B. get transport-node tunnel status
+C. get host-switch <Host-Switch-Name> tunnel status
+D. get transport-node tunnel state
 
--------------------------------------------------------------------------------------> Correct Answer:
 
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
-
--------------------------------------------------------------------------------------> Correct Answer:
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/28fdf409-4954-4ada-b9b7-63c2490af81d/aa8109b7-e2e9-4969-8541-eff94a0a2ab5/NSX-T%20Command-Line%20Interface%20Reference.html#get%20host-switch%20%3Chost-switch-name%3E%20tunnels
+-------------------------------------------------------------------------------------> Correct Answer:  A
 
 -------------------------------------------------------------------------------------> Correct Answer:
 
