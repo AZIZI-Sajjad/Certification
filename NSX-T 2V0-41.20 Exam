@@ -476,7 +476,7 @@ D. NSX Intelligence
 EXAMTOPIC
 -------------------------------------------------> 
 An NSX administrator noticed that the nsxcli command times out after 600 secs of idle time. Which CLI command disables the nsxcli time out value on NSX Manager?
-A. set cli-timeout 0 Most Voted
+A. set cli-timeout 0 
 B. set cli-timeout enabled
 C. set cli-timeout disabled
 D. set cli-timeout 1
@@ -755,8 +755,8 @@ E. segment connected to the Tier-1 gateway
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  BD
 Which two statements are true for a Tier-1 Gateway? (Choose two.)
 A. supports ECMP
-B. owned and configured by the Tenant Most Voted
-C. always configured in active-standby mode Most Voted
+B. owned and configured by the Tenant 
+C. always configured in active-standby mode 
 D. owned and configured by Service Provider
 E. connects to physical networks
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  CE
