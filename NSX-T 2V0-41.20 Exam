@@ -660,7 +660,7 @@ Which TraceFlow traffic type should an NSX administrator use for validating conn
 A. Multicast
 B. Anycast
 C. Unicast
-D. Broadcast
+D. Broadcast 
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  C
 Question 9
 When running nsxcli on an ESXi host, which command will show the Replication mode?
