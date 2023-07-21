@@ -310,7 +310,7 @@ C. zookeeper
 D. policy
 E. master
 F. controller
------------------------------------------------------------------------------------------------------------------------------> Correct Answer: BDE
+-----------------------------------------------------------------------------------------------------------------------------> Correct Answer: BDF
 QUESTION 38
 Which three can an administrator define in a transport node profile? (Choose three.)
 A. Logical Router
