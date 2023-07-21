@@ -389,7 +389,7 @@ B. log
 C. /var/log/vmware/eam/eam.log
 D. /var/log/esxupdate.log
 E. /var/log/syslog.log
------------------------------------------------------------------------------------------------------------------------------> Correct Answer: D
+-----------------------------------------------------------------------------------------------------------------------------> Correct Answer: E
 NEW QUESTION 7
 Which two BGP configuration parameters can be configured in the VRF Lite gateways? (Choose two.)
 A. Route Aggregation
