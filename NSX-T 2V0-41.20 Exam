@@ -522,6 +522,8 @@ A. Service interface
 B. Loopback Router Port
 C. Downlink interface
 D. VLAN Uplink
+
+https://docs.pivotal.io/pks/1-5/nsxt-install-create-t0.html
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: A
 Question #22
 How is the RouterLink port created between a Tier-1 Gateway and Tier-0 Gateway?
