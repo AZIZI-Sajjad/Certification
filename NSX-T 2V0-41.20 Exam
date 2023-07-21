@@ -441,7 +441,7 @@ B. The administrator must run the set audit user password <password> command.
 C. The audit user has read-write access to the NSX Manager.
 D. The audit user is disabled by default and must be enabled to log in to the NSX Manager.
 E. The administrator must run the set user audit password <password> command.
------------------------------------------------------------------------------------------------------------------------------> Correct Answer: AE  ?????????????????????????????????
+-----------------------------------------------------------------------------------------------------------------------------> Correct Answer: DE
 NEW QUESTION 27
 Which CLI command does an NSX administrator run on the NSX Manager to generate support bundle logs if the NSX UI is inaccessible?
 A. get support-bundle file vcpnv.tgz
