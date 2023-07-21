@@ -670,6 +670,47 @@ C. get logical-switches
 D. get logical-switch status
 
 https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html#get%20logical-switch%20%3Clogical-switch-id%3E%202
+
+get logical-switch <logical-switch-id>
+get logical-switch <logical-switch-id>
+get logical-switch <logical-switch-id> arp-table
+get logical-switch <logical-switch-id> arp-table
+get logical-switch <logical-switch-id> mac-table
+get logical-switch <logical-switch-id> mac-table
+get logical-switch <logical-switch-id> nd-table
+get logical-switch <logical-switch-id> ports
+get logical-switch <logical-switch-id> vtep
+get logical-switch <logical-switch-id> vtep-table
+get logical-switch <uuid>
+get logical-switch <uuid> l2forwarders
+get logical-switch <uuid> l2forwarders high-availability history state
+get logical-switch <uuid> l2forwarders high-availability state
+get logical-switch <uuid> mac-address-table
+get logical-switch <uuid> neighbor
+get logical-switch <uuid> ports
+get logical-switch <uuid> ports
+get logical-switch <uuid> ports stats
+get logical-switch <uuid> rtep-group-mac-address-table
+get logical-switch <uuid> rtep-group-mac-address-table <rtep-group-id>
+get logical-switch <uuid> rtep-groups
+get logical-switch <uuid> tunnel-ports
+get logical-switch <uuid> vtep-table
+get logical-switch <vni-or-uuid>
+get logical-switch <vni-or-uuid> arp-table
+get logical-switch <vni-or-uuid> arp-table remote
+get logical-switch <vni-or-uuid> arp-table remote verbose
+get logical-switch <vni-or-uuid> arp-table verbose
+get logical-switch <vni-or-uuid> mac-table
+get logical-switch <vni-or-uuid> mac-table remote
+get logical-switch <vni-or-uuid> mac-table remote verbose
+get logical-switch <vni-or-uuid> mac-table verbose
+get logical-switch <vni-or-uuid> stats
+get logical-switch <vni-or-uuid> transport-node-table
+get logical-switch <vni-or-uuid> verbose
+get logical-switch <vni-or-uuid> vtep
+get logical-switch <vni-or-uuid> vtep verbose
+get logical-switch port <uuid>
+
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: B
 Question 10
 Which profile must be attached to the ESXi cluster to prepare the host for NSX-T Data Center?
