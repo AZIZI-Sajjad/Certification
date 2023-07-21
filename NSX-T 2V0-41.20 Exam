@@ -272,7 +272,9 @@ C. Failover Order
 D. Destination Port
 E. Load Balanced Source MAC
 F. Load Balanced Source
------------------------------------------------------------------------------------------------------------------------------> Correct Answer:   ????????????????????????????????????????????????
+
+https://vstellar.com/2020/08/nsx-t-3-0-seriespart-2-uplink-profiles/#:~:text=Using%20named%20teaming%20policy%20we,use%20vSphere%20VDS%20at%20all.&text=2%3A%20Providing%20deterministic%20NSX%2DT,switch%20via%20a%20single%20pNIC
+-----------------------------------------------------------------------------------------------------------------------------> Correct Answer:   CEF
 QUESTION 34
 An NSX administrator is creating a Tier-1 Gateway configured in Active-Standby High Availability Mode. In the event of node failure, the failover policy should not
 allow the original failed node to become the Active node upon recovery.
