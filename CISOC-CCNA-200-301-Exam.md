@@ -10,7 +10,7 @@
 Question #1Topic 1
 Refer to the exhibit. Which type of route does R1 use to reach host 10.10.13.10/32?
 IMAGE : https://www.examtopics.com/assets/media/exam-media/04300/0000200001.png
-A. default route
+A. default route  
 B. network route
 C. host route
 D. floating static route
