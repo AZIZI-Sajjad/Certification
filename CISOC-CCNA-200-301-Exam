@@ -3,8 +3,22 @@
 
 
 ## ExamTopics
-### https://www.examtopics.com/exams/vmware/2v0-4120/view/1/
------------------------------------------------------------------------------------------------------------------------------> Correct Answer:
+### https://www.examtopics.com/exams/cisco/200-301/view/1
+----------------------------------------------------------------------------------------------------------------------------->
+
+Question #1Topic 1
+Refer to the exhibit. Which type of route does R1 use to reach host 10.10.13.10/32?
+IMAGE : https://www.examtopics.com/assets/media/exam-media/04300/0000200001.png
+A. default route
+B. network route
+C. host route
+D. floating static route
+
+Réf:
+https://www.econfigs.com/ccna-3-8-b-network-route/
+A network route is used to route traffic to a specific network.
+The network mask in a network route cannot be /0 (default route) or /32 (host route)
+-----------------------------------------------------------------------------------------------------------------------------> Correct Answer: B
 
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:
 
