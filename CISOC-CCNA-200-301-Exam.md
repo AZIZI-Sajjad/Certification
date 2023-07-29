@@ -9,7 +9,7 @@
 
 Question #1Topic 1  
 Refer to the exhibit. Which type of route does R1 use to reach host 10.10.13.10/32?  
-IMAGE : https://www.examtopics.com/assets/media/exam-media/04300/0000200001.png  
+![IMAGE](https://www.examtopics.com/assets/media/exam-media/04300/0000200001.png)
 A. default route  
 B. network route  
 C. host route  
@@ -19,10 +19,19 @@ Réf:
 https://www.econfigs.com/ccna-3-8-b-network-route/  
 A network route is used to route traffic to a specific network.  
 The network mask in a network route cannot be /0 (default route) or /32 (host route)  
------------------------------------------------------------------------------------------------------------------------------> Correct Answer:     
+-----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  B   
+Question #2Topic 1  
+Refer to the exhibit. Which prefix does Router1 use for traffic to Host A?  
+![IMAGE](https://www.examtopics.com/assets/media/exam-media/04300/0000300001.png)
 
------------------------------------------------------------------------------------------------------------------------------> Correct Answer:  
-  
+### <img src="[https://example.com/path/to/image.png](https://www.examtopics.com/assets/media/exam-media/04300/0000300001.png)">
+A. 10.10.10.0/28  
+B. 10.10.13.0/25  
+C. 10.10.13.144/28  
+D. 10.10.13.208/29  
+-----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  D
+
+![IMAGE]()  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  
   
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  
