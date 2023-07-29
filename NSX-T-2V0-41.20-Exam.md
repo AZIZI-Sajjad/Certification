@@ -88,8 +88,8 @@ A. SYSTEM
 B. FABRIC  
 C. GROUPING  
 D. MONITORING  
-https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/administration/GUID-CC18C0E3-D076-41AA-8B8C-133650FDC2E7.html
-https://docs.vmware.com/en/VMware-NSX/4.1/administration/GUID-8085C57D-681A-4435-83A3-CB21C98F4A93.html
+https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/administration/GUID-CC18C0E3-D076-41AA-8B8C-133650FDC2E7.html  
+https://docs.vmware.com/en/VMware-NSX/4.1/administration/GUID-8085C57D-681A-4435-83A3-CB21C98F4A93.html  
 set logging-server <hostname-or-ip-address[:port]> proto <proto> level <level> [facility <facility>] [messageid <messageid>] [serverca <filename>] [clientca <filename>] [certificate <filename>] [key <filename>] [structured-data <structured-data>]
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: B  
 QUESTION 12    
@@ -99,8 +99,8 @@ B. get log-file auth.log
 C. get log-file syslog  
 D. /var/log/sysloq/syslog.log  
 
-https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/administration/GUID-406AF9C3-E8F7-447A-8E3D-92AFB9D5E973.html
-get log-file <auth.log | controller | controller-error | http.log | kern.log | manager.log | node-mgmt.log | policy.log | syslog> [follow]
+https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/administration/GUID-406AF9C3-E8F7-447A-8E3D-92AFB9D5E973.html  
+get log-file <auth.log | controller | controller-error | http.log | kern.log | manager.log | node-mgmt.log | policy.log | syslog> [follow]  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: C  
 QUESTION 13    
 The NSX Control Plane is responsible for which two functions? (Choose two.)  
@@ -170,7 +170,7 @@ B. Configure the Virtual IP of the cluster.
 C. Register vCenter Server as a Compute Manager.  
 D. Create an Edge Cluster.  
 
-https://docs.pivotal.io/pks/1-7/nsxt-install-nsx-mgmt-cluster.html
+https://docs.pivotal.io/pks/1-7/nsxt-install-nsx-mgmt-cluster.html  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: C  
 What are two valid   options when configuring the scope of a distributed firewall rule? (Choose two.)
 A. Segment Port    
@@ -188,7 +188,7 @@ C. esxcli network nic list
 D. esxcfg-vmknic -l
 E. esxcli network ip interface ipv4 get  
 
-https://kb.vmware.com/s/article/1008127
+https://kb.vmware.com/s/article/1008127  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: DE  
 QUESTION 24    
 Which three services are compatible with VRF Lite? (Choose three.)  
@@ -261,7 +261,7 @@ B. get timezone
 C. set ntp-server  
 D. set timezone  
 
-https://vdc-download.vmware.com/vmwb-repository/dcr-public/ffedf5e0-6b2d-4aad-87ab-1045cd6e8233/b1529ef2-8250-497a-8cee-20947fba5072/NSX-T%20Command-Line%20Interface%20Reference.html
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/ffedf5e0-6b2d-4aad-87ab-1045cd6e8233/b1529ef2-8250-497a-8cee-20947fba5072/NSX-T%20Command-Line%20Interface%20Reference.html    
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: C  
 QUESTION 33    
 Which three teaming policy modes are supported by NSX-T Data Center? (Choose three.)  
@@ -272,7 +272,7 @@ D. Destination Port
 E. Load Balanced Source MAC  
 F. Load Balanced Source  
 
-https://vstellar.com/2020/08/nsx-t-3-0-seriespart-2-uplink-profiles/#:~:text=Using%20named%20teaming%20policy%20we,use%20vSphere%20VDS%20at%20all.&text=2%3A%20Providing%20deterministic%20NSX%2DT,switch%20via%20a%20single%20pNIC
+https://vstellar.com/2020/08/nsx-t-3-0-seriespart-2-uplink-profiles/#:~:text=Using%20named%20teaming%20policy%20we,use%20vSphere%20VDS%20at%20all.&text=2%3A%20Providing%20deterministic%20NSX%2DT,switch%20via%20a%20single%20pNIC  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:   CEF  
 QUESTION 34    
 An NSX administrator is creating a Tier-1 Gateway configured in Active-Standby High Availability Mode. In the event of node failure, the failover policy should not  
@@ -298,7 +298,7 @@ B. NSX Edge
 C. NSX Manager  
 D. Hypervisor transport node  
 
-https://docs.vmware.com/en/VMware-NSX/4.1/administration/GUID-D57429A1-A0A9-42BE-A299-0C3C3546ABF3.html
+https://docs.vmware.com/en/VMware-NSX/4.1/administration/GUID-D57429A1-A0A9-42BE-A299-0C3C3546ABF3.html  
 If logging is enabled for firewall rules, you can look at the firewall packet logs to troubleshoot issues. The log file is /var/log/dfwpktlogs.log on ESXi hosts.
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: D  
 QUESTION 37    
@@ -363,7 +363,7 @@ B. set service nsx-manager log-level debug
 C. set service manager log-level debug  
 D. set service manager logging-level debug  
 
-https://kb.vmware.com/s/article/55868
+https://kb.vmware.com/s/article/55868  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: D  
 NEW QUESTION 3    
 Which three protocols could an NSX administrator use to transfer log messages to a remote log server? (Choose three.)  
@@ -412,7 +412,7 @@ B. deploy NSX Edge VM with ISO image
 C. deploy NSX Edge on a bare-metal server  
 D. deploy NSX Edge VM with OVF template  
 
-https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/installation/GUID-11417AA2-5EBC-49C7-8A86-EB94604261A6.html
+https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/installation/GUID-11417AA2-5EBC-49C7-8A86-EB94604261A6.html  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: C  
 NEW QUESTION 10    
 Which component does the hyperbus interface (vmk50) provide network connectivity to?  
@@ -421,9 +421,9 @@ B. virtual machines and containers running across transport nodes
 C. virtual machines running on the same hypervisor  
 D. virtual machines running in the same segment  
 
-https://cloudbytesecurity.com/2019/11/05/prepare-host-transport-nodes/
-https://kb.vmware.com/s/article/67432?lang=en_US
-https://kb.vmware.com/s/article/67432
+https://cloudbytesecurity.com/2019/11/05/prepare-host-transport-nodes/  
+https://kb.vmware.com/s/article/67432?lang=en_US  
+https://kb.vmware.com/s/article/67432  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: C  
 NEW QUESTION 21    
 Which two choices are use cases for Distributed Intrusion Detection? (Choose two.)  
@@ -522,7 +522,7 @@ B. Loopback Router Port
 C. Downlink interface  
 D. VLAN Uplink  
 
-https://docs.pivotal.io/pks/1-5/nsxt-install-create-t0.html
+https://docs.pivotal.io/pks/1-5/nsxt-install-create-t0.html  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: A  
 Question #22    
 How is the RouterLink port created between a Tier-1 Gateway and Tier-0 Gateway?    
@@ -570,7 +570,7 @@ D. join management-plane <nsx-nanager-ip> username admin password <admin-passwor
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  D  
 Question #28    
 Refer to the exhibit.    
-IMAGE : https://www.examtopics.com/exams/vmware/2v0-4120/view/7/
+IMAGE : https://www.examtopics.com/exams/vmware/2v0-4120/view/7/  
 Which NAT type must the NSX-T Data Center administrator create on the Tier-0 or Tier-1 Gateway to allow Web VM to initiate communication with public networks?
 A. SNAT  
 B. Reverse NAT  
@@ -600,7 +600,7 @@ B. get transport-node tunnel status
 C. get host-switch <Host-Switch-Name> tunnel status  
 D. get transport-node tunnel state  
 
-https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html#get%20host-switch%20%3Chost-switch-name%3E%20tunnels
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html#get%20host-switch%20%3Chost-switch-name%3E%20tunnels  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer: A  
 Question #38    
 What are two valid options when configuring the scope of a distributed firewall rule? (Choose two.)    
@@ -624,7 +624,7 @@ D. Add partner SVMs to an edge cluster.
 
 
 ITEXAM
-https://www.itexams.com/exam/2V0-41-20
+https://www.itexams.com/exam/2V0-41-20  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  
 Question 2    
 Which two ports are used by a transport node to communicate with the management and control planes in NSX-T Data Center 3.0? (Choose two.)    
@@ -668,7 +668,7 @@ B. get logical-switch <Logical-Switch-UUID>
 C. get logical-switches  
 D. get logical-switch status  
 
-https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html#get%20logical-switch%20%3Clogical-switch-id%3E%202
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html#get%20logical-switch%20%3Clogical-switch-id%3E%202  
 
 get logical-switch <logical-switch-id>
 get logical-switch <logical-switch-id>
@@ -732,7 +732,7 @@ B. set user admin password <old-password> <new-password>
 C. set user admin password <password> old-password <old-password>  
 D. set user administrator password <password> old-password <old-password>  
 
-https://docs.pivotal.io/pks/1-5/nsxt-install-update-password.html
+https://docs.pivotal.io/pks/1-5/nsxt-install-update-password.html  
 set user admin password my-new-pwd old-password my-old-pwd
 set user admin password-expiration 120
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  C  
@@ -782,7 +782,7 @@ B. API
 C. ESX CLI  
 D. NSX CLI  
 
-https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/cc42e3c1-eb34-4567-a916-147e79798957/8264605c-a5e1-49a8-b603-cc78621eeeab/cli.html  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  D  
 A customer has a network where BGP has been enabled and the BGP neighbor is confi  gured on the Tier-0 Gateway. A NSX-T Data Center administrator used the get logical-routers command to retrieve this information:
 Which two commands must be executed to check BGP neighbor status? (Choose two.)  
@@ -800,7 +800,7 @@ C. get host-switch <Host-Switch-Name> tunnel status
 D. get transport-node tunnel state  
 
 
-https://vdc-download.vmware.com/vmwb-repository/dcr-public/28fdf409-4954-4ada-b9b7-63c2490af81d/aa8109b7-e2e9-4969-8541-eff94a0a2ab5/NSX-T%20Command-Line%20Interface%20Reference.html#get%20host-switch%20%3Chost-switch-name%3E%20tunnels
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/28fdf409-4954-4ada-b9b7-63c2490af81d/aa8109b7-e2e9-4969-8541-eff94a0a2ab5/NSX-T%20Command-Line%20Interface%20Reference.html#get%20host-switch%20%3Chost-switch-name%3E%20tunnels  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  A  
   
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:    
