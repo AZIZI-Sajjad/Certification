@@ -30,7 +30,11 @@ B. 10.10.13.0/25
 C. 10.10.13.144/28  
 D. 10.10.13.208/29  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  D
+Question #5Topic 1  
+![IMAGE](https://www.examtopics.com/assets/media/exam-media/04300/0000800001.png)  
+Drag and drop the IPv4 network subnets from the left onto the correct usable host ranges on the right. Select and Place:  
 
+ 
 ![IMAGE]()  
 -----------------------------------------------------------------------------------------------------------------------------> Correct Answer:  
   
