@@ -2,8 +2,8 @@
 
 
 ## Chapter 1 - introduction to TCPIP Networking
-1- D  F  
-2- A  G  
+1- D / F  
+2- A / G  
 3- B  
 4- B  
 5- A  
@@ -87,5 +87,9 @@ wireless local-area network (wireless LAN), or Wi-Fi
 
 ### Enterprise Network
 ![image](https://github.com/AZIZI-Sajjad/Certification/assets/77125737/0609ba81-4734-467e-8a96-5095f809a159)
+
+
+## TCP/IP Networking Model:
+
 
 
