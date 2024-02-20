@@ -91,4 +91,64 @@ wireless local-area network (wireless LAN), or Wi-Fi
 
 ## TCP/IP Networking Model:
 
-Page 70
+![TEST](image-1.png)
+
+
+### Overview of the TCP/IP Networking Model :
+Overview of the TCP/IP Networking Model:  
+The TCP/IP model both defines and references a large collection of protocols that allow computers to communicate. 
+
+
+### RFC (Requests For Comments): 
+To define a protocol, TCP/IP uses documents called Requests For Comments (RFC).
+(You can find these RFCs using any online search engine.)
+
+
+![alt text](image-2.png)
+
+
+
+![alt text](image-3.png)
+
+
+### TCP/IP Application Layer  
+the application layer provides an interface between software running on a computer and the network itself.  
+TCP/IP application layer protocols provide services to the application software running on acomputer.  
+--> The application layer does not define the application itself, but it defines SERVICES THAT APPLICATION NEED. 
+--> Exemple : WEB BROSWER  
+
+
+
+### HTTP Overview
+
+![alt text](image-4.png)
+Figure 1-5 Basic Application Logic to Get a Web Page  
+
+
+### HTTP Protocol Mechanisms
+#### URL & URI
+URL -> Uniform Resource Locators   
+URI -> Universal Resource Identifiers (URI)—begins  
+
+The full version of most web addresses—also called Uniform Resource  
+Which means that HTTP is used to transfer the web pages.
+
+
+![alt text](image-5.png)
+
+
+
+### TCP/IP Transport Layer
+Transport layer protocols provide services to the application layer protocols that reside one layer higher in the TCP/IP model.  
+Transport layer protocol provide a service to a higher-layer protocol  
+#### TCP :
+Transmission Control Protocol (TCP)
+#### UDP :
+User Datagram Protocol (UDP)
+
+
+
+
+
+
+Page 75
