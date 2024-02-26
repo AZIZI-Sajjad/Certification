@@ -79,19 +79,19 @@ Perspectives on Networking
 
 ### Small Office/Home Office (SOHO) Network:
 
-![image](https://github.com/AZIZI-Sajjad/Certification/assets/77125737/6fda9435-5af5-4b0d-b98a-7d966c353980)
+![image](images/https://github.com/AZIZI-Sajjad/Certification/assets/77125737/6fda9435-5af5-4b0d-b98a-7d966c353980)
 
 The cable modem then connects to a cable TV (CATV) outlet in the wall using a round 'coaxial cable'  
 wireless local-area network (wireless LAN), or Wi-Fi  
 
 
 ### Enterprise Network
-![image](https://github.com/AZIZI-Sajjad/Certification/assets/77125737/0609ba81-4734-467e-8a96-5095f809a159)
+![image](images/https://github.com/AZIZI-Sajjad/Certification/assets/77125737/0609ba81-4734-467e-8a96-5095f809a159)
 
 
 ## TCP/IP Networking Model:
 
-![TEST](image-1.png)
+![TEST](images/image-1.png)
 
 
 ### Overview of the TCP/IP Networking Model :
@@ -104,11 +104,11 @@ To define a protocol, TCP/IP uses documents called Requests For Comments (RFC).
 (You can find these RFCs using any online search engine.)
 
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 
 ### TCP/IP Application Layer  
@@ -121,7 +121,7 @@ TCP/IP application layer protocols provide services to the application software 
 
 ### HTTP Overview
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 Figure 1-5 Basic Application Logic to Get a Web Page  
 
 
@@ -134,7 +134,7 @@ The full version of most web addresses—also called Uniform Resource
 Which means that HTTP is used to transfer the web pages.
 
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 
 
