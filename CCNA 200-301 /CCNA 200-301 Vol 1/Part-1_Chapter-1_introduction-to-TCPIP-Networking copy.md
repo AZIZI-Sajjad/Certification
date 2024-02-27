@@ -79,7 +79,7 @@ Perspectives on Networking
 
 ### Small Office/Home Office (SOHO) Network:
 
-![image](image-001.png)
+![image](images/p1-ch1/image-001.png)
 
 
     The cable modem then connects to a cable TV (CATV) outlet in the wall using a round 'coaxial cable'  
@@ -87,12 +87,12 @@ Perspectives on Networking
 
 
 ### Enterprise Network
-![image](image-002.png)
+![image](images/p1-ch1/image-002.png)
 
 
 ## TCP/IP Networking Model:
 
-![TEST](image-003.png)
+![TEST](images/p1-ch1/image-003.png)
 
 
 ### Overview of the TCP/IP Networking Model :
@@ -105,11 +105,11 @@ Perspectives on Networking
     (You can find these RFCs using any online search engine.)
 
 
-![alt text](image-004.png)
+![alt text](images/p1-ch1/image-004.png)
 
 
 
-![alt text](image-005.png)
+![alt text](images/p1-ch1/image-005.png)
 
 
 ### TCP/IP Application Layer  
@@ -122,7 +122,7 @@ Perspectives on Networking
 
 ### HTTP Overview
 
-![alt text](image-006.png)
+![alt text](images/p1-ch1/image-006.png)
 Figure 1-5 Basic Application Logic to Get a Web Page  
 
 
@@ -135,7 +135,7 @@ Figure 1-5 Basic Application Logic to Get a Web Page
     Which means that HTTP is used to transfer the web pages.
 
 
-![alt text](image-007.png)
+![alt text](images/p1-ch1/image-007.png)
 
 
 
@@ -153,7 +153,7 @@ Figure 1-5 Basic Application Logic to Get a Web Page
 
 ## TCP Error Recovery Basics
 
-![alt text](image-010.png)
+![alt text](images/p1-ch1/image-010.png)
 ##### Figure 1-7 TCP Error-Recovery Services as Provided to HTTP
 
 
@@ -169,14 +169,14 @@ Figure 1-5 Basic Application Logic to Get a Web Page
 
 
 ### Adjacent-Layer Interactions
-![alt text](image-011.png)
+![alt text](images/p1-ch1/image-011.png)
 
 
 
 
 
 #### Internet Protocol and the Postal Service
-![alt text](image-012.png)
+![alt text](images/p1-ch1/image-012.png)
 
 
 
@@ -185,7 +185,7 @@ Figure 1-5 Basic Application Logic to Get a Web Page
     IP also defines how to group addresses together  
 
 
-![alt text](image-012.png)
+![alt text](images/p1-ch1/image-012.png)
 
 
 
@@ -199,7 +199,7 @@ Figure 1-5 Basic Application Logic to Get a Web Page
 
     IP Routing is based on Destination  
 
-![alt text](image-014.png)
+![alt text](images/p1-ch1/image-014.png)
 
     The TCP/IP model’s data-link and physical layers define the protocols and hardware required to deliver data across some physical network.  
 
@@ -216,7 +216,7 @@ Figure 1-5 Basic Application Logic to Get a Web Page
 
 
 
-![alt text](image-015.png)
+![alt text](images/p1-ch1/image-015.png)
 ##### Figure 1-11 Larry Using Ethernet to Forward an IP Packet to Router R1
 
 
@@ -234,14 +234,14 @@ Figure 1-5 Basic Application Logic to Get a Web Page
 
 # Data Encapsulation Terminology
 
-![alt text](image-016.png)
+![alt text](images/p1-ch1/image-016.png)
 ##### Figure 1-12 Five Steps of Data Encapsulation: TCP/IP
 
 
 
 
 # Names of TCP/IP Messages
-![alt text](image-017.png)
+![alt text](images/p1-ch1/image-017.png)
 ##### Figure 1-13 Perspectives on Encapsulation and DATA
     LH: link header 
     LT : link trailer
@@ -262,7 +262,7 @@ Figure 1-5 Basic Application Logic to Get a Web Page
 
     --> Note that the TCP/IP model in use today, on the right side of the  figure, uses the exact same layer names as OSI at the lower layers.
 
-![alt text](image-018.png)
+![alt text](images/p1-ch1/image-018.png)
 
 
 
@@ -270,9 +270,9 @@ Figure 1-5 Basic Application Logic to Get a Web Page
 ## OSI Data Encapsulation Terminology
 
 
-![alt text](image-018.png)
+![alt text](images/p1-ch1/image-018.png)
 
-![alt text](image-019.png)
+![alt text](images/p1-ch1/image-019.png)
 ###### Figure 1-15 OSI Encapsulation and Protocol Data Units 
 
     OSI uses a more generic term to refer to messages, rather than frame, packet, and segment.  
