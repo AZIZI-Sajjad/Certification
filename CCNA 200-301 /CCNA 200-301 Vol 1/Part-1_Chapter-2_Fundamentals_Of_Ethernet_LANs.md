@@ -88,6 +88,215 @@ d. Multicast address
 
 
 
+# An Overview of LANs
+    The term Ethernet refers to a family of LAN standards that together define the physical and data-link layers of the world’s most popular wired LAN technology.
+
+## Institute of Electrical and Electronics Engineers (IEEE)
+    The standards, defined by the Institute of Electrical and Electronics Engineers (IEEE), define the cabling, 
+
+
+
+
+
+# Typical SOHO LANs
+    To begin, first think about a small office/home office (SOHO) LAN today,
+    specifically a LAN that uses only Ethernet LAN technology.
+    
+    First, the LAN needs a device called an Ethernet LAN switch, which provides many physical ports into which cables can be connected. 
+    
+    An Ethernet uses Ethernet cables, which is a general reference to any cable that conforms to any of several Ethernet standards.
+    
+    The LAN uses Ethernet cables to connect different Ethernet devices or nodes to one of the switch’s Ethernet ports.
+
+
+
+![alt text](images/p1-ch2/image-001.png)
+###### Figure 2-1 Typical Small Ethernet-Only SOHO LAN
+
+
+
+    Typical SOHO LANs today also support wireless LAN connections.
+    
+    You can build a single SOHO LAN that includes both Ethernet LAN technology as well as wireless LAN technology,
+    which is also defined by the IEEE.
+
+    Wireless LANs,
+    defined by the IEEE using standards that begin with 802.11,
+    use radio waves to send the bits from one node to the next.
+
+
+
+## WireLess Access Point :
+
+    Most wireless LANs rely on yet another networking device:
+    a wireless LAN access point(AP).
+    
+    The AP acts somewhat like an Ethernet switch, in that all the wireless LAN nodes communicate with the wireless AP.
+    
+    If the network uses an AP that is a separate physical device,
+    the AP then needs a single Ethernet link to connect the AP to the Ethernet LAN, as shown in Figure 2-2.
+
+
+![alt text](image-002.png)
+###### Figure 2-2 Typical Small Wired and Wireless SOHO LAN
+
+
+
+
+![alt text](image-003.png)
+
+
+
+
+
+
+
+    Ethernet supports a large variety of options for physical Ethernet links given its long history over the last 40 or so years.
+
+    Today, Ethernet includes many standards for different kinds of optical and copper cabling, and for speeds from 10 megabits per second (Mbps) up to 400 gigabits per second (Gbps).
+
+    The standards also differ as far as the types and length of the cables.
+
+    The most fundamental cabling choice has to do with the materials used inside the cable for the physical transmission of bits:
+    either copper wires or glass fibers.
+
+    Devices using UTP cabling transmit data over electrical circuits via the copper wires inside the cable.
+
+
+# Fiber Optic :
+    Fiber-optic cabling, the more expensive alternative, allows Ethernet nodes to send light over glass fibers in the center of the cable.
+
+    Fiber-optic cabling contains long thin strands of fiberglass.
+    The attached Ethernet nodes send light over the glass fiber in the cable,
+    
+    encoding the bits as changes in the light.
+
+
+    Although more expensive, optical cables typically allow longer cabling distances between nodes.
+
+
+
+![alt text](image-004.png)
+###### Table 2-2 Examples of Types of Ethernet
+
+
+
+##  FRAME 
+    Frame specifically refers to the header and trailer of a data-link protocol, plus the data encapsulated inside that header and trailer.
+
+
+
+![alt text](image-005.png)
+###### Figure 2-4 Ethernet LAN Forwards a Data-Link Frame over Many Types of Links
+
+
+
+
+# Ethernet LAN
+    It is a combination of user devices, LAN switches, and different kinds of cabling. Each link can use different types of cables, at different speeds.
+
+    However, they all work together to deliver Ethernet frames from the one device on the LAN to some other device.
+
+
+#  Unshielded Twisted Pair (UTP)
+
+## Building Physical Ethernet LANs with UTP
+
+
+##### Most commonly used Ethernet standards:
+        10BASE-T (Ethernet)
+        100BASE-T (Fast Ethernet, or FE),
+        1000BASE-T (Gigabit Ethernet, or GE)
+
+
+
+
+### Transmitting Data Using Twisted Pairs
+
+![alt text](image-006.png)
+
+
+
+
+
+
+
+
+
+
+![image](images/p1-ch2/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
