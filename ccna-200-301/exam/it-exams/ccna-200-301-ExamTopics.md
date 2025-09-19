@@ -101,7 +101,8 @@ E. runts
   <details>
     <summary>📘 Explanation</summary>
 
-👉 Quand un FCS échoue, cela se traduit par des erreurs d’entrée et des erreurs CRC.  
+    👉 input errors s’incrémente → c’est un compteur global qui inclut toutes les erreurs d’entrée (CRC, runt, giant, etc.).  
+    CRC s’incrémente → car une trame qui échoue au FCS est comptée comme une erreur CRC.  
   </details>
 
   <details>
@@ -110,6 +111,9 @@ E. runts
     ✅ A, D
   </details>
 </details>
+
+---
+
 <details>
   <summary>Question #N?</summary>
 
