@@ -19,10 +19,14 @@ B. network route
 C. host route  
 D. floating static route  
 
+  <details>
+    <summary>📘 Explanation</summary>
+
 Réf:  
 https://www.econfigs.com/ccna-3-8-b-network-route/  
 A network route is used to route traffic to a specific network.  
 The network mask in a network route cannot be /0 (default route) or /32 (host route).  
+  </details>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -46,6 +50,12 @@ C. 10.10.13.144/28
 D. 10.10.13.208/29  
 
   <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ici vous pouvez insérer l’explication du calcul de masque et du choix de la plage correspondante.  
+  </details>
+
+  <details>
     <summary>🌟 Correct Answer</summary>
 
     ✅ D
@@ -62,16 +72,48 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 ![alt text](image-2.png)  
 
   <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici les explications du mapping entre subnets et plages d’adresses.  
+  </details>
+
+  <details>
     <summary>🌟 Correct Answer</summary>
 
-    ✅ A B C D E
+    ✅  
+    ![alt text](image-4.png)
   </details>
 </details>
 
 ---
-  
+
+<details>
+  <summary>Question #4</summary>
+
+A frame that enters a switch fails the Frame Check Sequence. Which two interface counters are incremented? (Choose two.)  
+
+A. input errors  
+B. frame  
+C. giants  
+D. CRC  
+E. runts  
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Quand un FCS échoue, cela se traduit par des erreurs d’entrée et des erreurs CRC.  
+  </details>
+
+  <details>
+    <summary>🌟 Correct Answer</summary>
+
+    ✅ A, D
+  </details>
+</details>
 <details>
   <summary>Question #N?</summary>
+
+Question Here !
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -87,33 +129,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -129,33 +151,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -171,33 +173,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -213,33 +195,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -255,33 +217,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -297,33 +239,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -339,33 +261,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -381,33 +283,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -423,33 +305,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -465,33 +327,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -507,33 +349,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -549,33 +371,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -591,33 +393,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -633,33 +415,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -675,33 +437,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -717,33 +459,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -759,33 +481,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -801,33 +503,13 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
-  <details>
-    <summary>🌟 Correct Answer</summary>
-
-    ✅ A B C D E
-  </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
+Question ici !
 
   <details>
-    <summary>🌟 Correct Answer</summary>
+    <summary>📘 Explanation</summary>
 
-    ✅ A B C D E
+👉 Ajoutez ici
   </details>
-</details>
-
----
-
-
-
-<details>
-  <summary>Question #N?</summary>
 
   <details>
     <summary>🌟 Correct Answer</summary>
@@ -843,6 +525,14 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
   <details>
     <summary>🌟 Correct Answer</summary>
 
@@ -857,6 +547,14 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 <details>
   <summary>Question #N?</summary>
 
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
   <details>
     <summary>🌟 Correct Answer</summary>
 
@@ -870,6 +568,168 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
 
 <details>
   <summary>Question #N?</summary>
+
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
+  <details>
+    <summary>🌟 Correct Answer</summary>
+
+    ✅ A B C D E
+  </details>
+</details>
+
+---
+
+
+
+<details>
+  <summary>Question #N?</summary>
+
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
+  <details>
+    <summary>🌟 Correct Answer</summary>
+
+    ✅ A B C D E
+  </details>
+</details>
+
+---
+
+
+
+<details>
+  <summary>Question #N?</summary>
+
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
+  <details>
+    <summary>🌟 Correct Answer</summary>
+
+    ✅ A B C D E
+  </details>
+</details>
+
+---
+
+
+
+<details>
+  <summary>Question #N?</summary>
+
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
+  <details>
+    <summary>🌟 Correct Answer</summary>
+
+    ✅ A B C D E
+  </details>
+</details>
+
+---
+
+
+
+<details>
+  <summary>Question #N?</summary>
+
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
+  <details>
+    <summary>🌟 Correct Answer</summary>
+
+    ✅ A B C D E
+  </details>
+</details>
+
+---
+
+
+
+<details>
+  <summary>Question #N?</summary>
+
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
+  <details>
+    <summary>🌟 Correct Answer</summary>
+
+    ✅ A B C D E
+  </details>
+</details>
+
+---
+
+
+
+<details>
+  <summary>Question #N?</summary>
+
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
+
+  <details>
+    <summary>🌟 Correct Answer</summary>
+
+    ✅ A B C D E
+  </details>
+</details>
+
+---
+
+
+
+<details>
+  <summary>Question #N?</summary>
+
+Question ici !
+
+  <details>
+    <summary>📘 Explanation</summary>
+
+👉 Ajoutez ici
+  </details>
 
   <details>
     <summary>🌟 Correct Answer</summary>
