@@ -81,7 +81,7 @@ Drag and drop the IPv4 network subnets from the left onto the correct usable hos
     <summary>🌟 Correct Answer</summary>
 
     ✅  
-    ![alt text](image-4.png)
+  ![alt text](image-4.png)
   </details>
 </details>
 
@@ -115,14 +115,21 @@ E. runts
 ---
 
 <details>
-  <summary>Question #N?</summary>
+  <summary>Question #5</summary>
 
-Question Here !
+DRAG DROP
+Drag and drop the IPv4 network subnets from the left onto the correct usable host ranges on the right.
+Select and Place:
+<img width="912" height="446" alt="image" src="https://github.com/user-attachments/assets/8f7e3cb8-492f-4db1-87f5-58da90999979" />
+
+
 
   <details>
     <summary>🌟 Correct Answer</summary>
 
-    ✅ A B C D E
+    ✅ 
+  <img width="912" height="446" alt="image" src="https://github.com/user-attachments/assets/9b934fa8-f751-45c1-9d4b-06065f4ed2e7" />
+
   </details>
 </details>
 
@@ -131,20 +138,25 @@ Question Here !
 
 
 <details>
-  <summary>Question #N?</summary>
+  <summary>Question #6</summary>
 
-Question ici !
+  How do TCP and UDP differ in the way that they establish a connection between two endpoints?  
+  
+A. TCP uses the three-way handshake, and UDP does not guarantee message delivery.  
+B. TCP uses synchronization packets, and UDP uses acknowledgment packets.  
+C. UDP provides reliable message transfer, and TCP is a connectionless protocol.  
+D. UDP uses SYN, SYN ACK, and FIN bits in the frame header while TCP uses SYN, SYN ACK, and ACK bits.  
+
 
   <details>
     <summary>📘 Explanation</summary>
-
-👉 Ajoutez ici
+  A. TCP uses the three-way handshake, and UDP does not guarantee message delivery.  
   </details>
 
   <details>
     <summary>🌟 Correct Answer</summary>
 
-    ✅ A B C D E
+    ✅ A  
   </details>
 </details>
 
@@ -153,20 +165,31 @@ Question ici !
 
 
 <details>
-  <summary>Question #N?</summary>
+  <summary>Question #7</summary>
 
-Question ici !
+Which 802.11 frame type is Association Response?  
+A. management  
+B. protected frame  
+C. action  
+D. control  
+
 
   <details>
     <summary>📘 Explanation</summary>
 
-👉 Ajoutez ici
+👉 
+Les trames Association Request et Association Response appartiennent à la catégorie des management frames dans la norme IEEE 802.11.
+Elles servent à établir l’association entre une station (STA) et un point d’accès (AP).
+
+📖 Référence officielle IEEE / Cisco :
+
+Cisco Docs – 802.11 Frame Types : https://www.cisco.com/c/en/us/support/docs/wireless-mobility/80211/21391-80211.html
   </details>
 
   <details>
     <summary>🌟 Correct Answer</summary>
 
-    ✅ A B C D E
+    ✅ A  
   </details>
 </details>
 
@@ -175,14 +198,22 @@ Question ici !
 
 
 <details>
-  <summary>Question #N?</summary>
+  <summary>Question #8</summary>
 
-Question ici !
+In which way does a spine-and-leaf architecture allow for scalability in a network when additional access ports are required?  
+
+A. A spine switch and a leaf switch can be added with redundant connections between them.  
+B. A spine switch can be added with at least 40 GB uplinks.  
+C. A leaf switch can be added with connections to every spine switch.  
+D. A leaf switch can be added with a single connection to a core spine switch.  
+
 
   <details>
     <summary>📘 Explanation</summary>
 
-👉 Ajoutez ici
+👉 
+<img width="1709" height="932" alt="image" src="https://github.com/user-attachments/assets/93556c7e-da40-4040-96d6-de516b3f1c55" />
+
   </details>
 
   <details>
